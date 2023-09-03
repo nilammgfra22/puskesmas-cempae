@@ -1,6 +1,10 @@
 const Home = {
   async render() {
     return `
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
     <!--carousel-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -157,7 +161,7 @@ const Home = {
           </div>
         
           <div class="col">
-            <form method="post" action="#">
+            <form method="post" id='contact-form'>
                
               <div class="form-group pb-2">
                 <label for="">Nama :</label>
@@ -187,6 +191,17 @@ const Home = {
  
   async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
+    const form = document.getElementById('contact-form')
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault()
+      const formData = new FormData(form)
+      const name = formData.get('nama')
+      const email = formData.get('email')
+      const message = formData.get('pesan')
+      console.log(name, email, message)
+      form.reset()
+    })
+
   },
 };
  
