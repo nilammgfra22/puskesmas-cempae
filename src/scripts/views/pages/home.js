@@ -3,10 +3,6 @@ import { inject } from '@vercel/analytics';
 const Home = {
   async render() {
     return `
-    <script>
-      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-    </script>
-    <script defer src="/_vercel/insights/script.js"></script>
     <!--carousel-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
