@@ -1,3 +1,5 @@
+import { inject } from '@vercel/analytics';
+
 const Home = {
   async render() {
     return `
@@ -200,8 +202,8 @@ const Home = {
       const message = formData.get('pesan')
       console.log(name, email, message)
       form.reset()
-    })
-
+    })    
+    inject();
   },
 };
  
