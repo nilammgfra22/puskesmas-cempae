@@ -7,17 +7,18 @@ const AboutUs = {
         <div class="row">
           <div class="col-lg-4 col-md-12 col-12 ps-lg-5 mt-md-5">
             <div class="about-img">
-              <img src="./img/img-01.jpg" alt="Foto Kepala Puskesmas Cempae" class="img-fluid rounded-circle" />
-              <h1 class="text-center" style="font-size: 18px">Kepala Puskesmas Cempae</h1>
-              <h1 class="text-center" style="font-size: 18px">????</h1>
+              <img src="./img/kapus-cempae.jpg" alt="Foto Kepala UPTD Puskesmas Cempae" class="img-fluid rounded-circle"/>
+              <h1 class="text-center" style="font-size: 18px; margin-top: 15px">Kepala UPTD Puskesmas Cempae</h1>
             </div>
           </div>
           <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
             <div class="about-text">
               <h2>KATA SAMBUTAN UNTUK PENGUNJUNG WEBSITE</h2>
               <p>Assalamualaikum Warahmatullahi Wabarakatuh, </br>
-              Selamat datang di website Puskesmas Cempae! Kami dengan senang hati ingin mendengar masukan, saran, atau pertanyaan Anda. Prioritas kami adalah kesehatan dan kesejahteraan bersama.
-              Jangan ragu untuk menghubungi kami untuk layanan atau informasi lebih lanjut. Terima kasih atas kunjungan Anda, Salam Sehat untuk kita semua!</p>
+              Selamat datang di website Puskesmas Cempae! Kami dengan senang hati ingin mendengar masukan, saran, atau pertanyaan Anda. </br>
+              Prioritas kami adalah kesehatan dan kesejahteraan bersama. </br>
+              Jangan ragu untuk menghubungi kami untuk layanan atau informasi lebih lanjut. </br>
+              Terima kasih atas kunjungan Anda, Salam Sehat untuk kita semua!</p>
             </div>
           </div>
         </div>
